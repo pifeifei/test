@@ -9,3 +9,6 @@ jobs:
             - uses: actions/checkout@v4
             - name: Run
               run:  apt list --installed
+
+            - name: Run php -m
+              run:  php -m
