@@ -12,3 +12,6 @@ jobs:
 
             - name: Run php -m
               run:  php -m
+
+            - name: Run php xdebug
+              run:  php --ri=xdebug
